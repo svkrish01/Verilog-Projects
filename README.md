@@ -4,7 +4,7 @@ This repository contains my **basic FPGA and SystemVerilog projects** developed 
 
 The main goal of this repository is to document my **hands-on exploration of SystemVerilog using real hardware**, moving from simulation-only concepts to practical FPGA implementations.
 
-The board used for all projects is the **Tang Nano 9K**, based on the **Gowin GW1NR-9 FPGA**, which provides **8640 LUT4 logic units, onboard 27 MHz clock, HDMI support, SPI flash, PSRAM, and programmable LEDs**, making it an excellent beginner-friendly FPGA platform. :contentReference[oaicite:0]{index=0}
+The board used for all projects is the **Tang Nano 9K**, based on the **Gowin GW1NR-9 FPGA**, which provides **8640 LUT4 logic units, onboard 27 MHz clock, HDMI support, SPI flash, PSRAM, and programmable LEDs**, making it an excellent beginner-friendly FPGA platform. 
 
 ## 🔗 Board Information
 - **Board:** Sipeed Tang Nano 9K
