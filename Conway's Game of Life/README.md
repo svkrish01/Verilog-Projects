@@ -69,6 +69,63 @@ This avoids edge death artifacts and creates smoother long-term evolution.
 
 ---
 
+## 🧩 Module Breakdown
+
+All Verilog/SystemVerilog source files are placed inside the **`src/` directory**.
+
+### `src/Main.v`
+This is the **Game of Life engine**.
+
+Responsibilities:
+
+- stores the 8×8 cell state
+- computes next generation
+- applies wrap-around Conway rules
+- defines the **initial seed pattern**
+- outputs a **64-bit flattened display buffer**
+
+The initial state can be modified here to test:
+
+- oscillators
+- gliders
+- still lifes
+- random seeds
+
+### `src/Matrix.v`
+This module handles **LED matrix scanning and multiplexing**.
+
+It:
+
+- accepts a **64-bit input data bus**
+- splits it into 8 rows
+- scans rows at **1 kHz**
+- refreshes the display fast enough to avoid visible flicker
+
+This module is reusable for other 8×8 display projects.
+
+### `src/Clock Divider.v`
+This module derives lower frequencies from the **27 MHz onboard clock**.
+
+It uses a **25-bit divider input** to generate:
+
+- **1 Hz** → Game of Life progression
+- **1 kHz** → row multiplexing clock
+
+This separation ensures:
+
+- smooth display refresh
+- visible generation updates
+- independent display and simulation timing
+
+---
+
+## 📷 Synthesis Report Snapshot
+The following image shows the post-synthesis resource utilization from **Gowin Education IDE**.
+
+![Resource Utilization](./Resource_Utilisation.png)
+
+---
+
 ## 💡 Hardware Used
 ### FPGA
 - **Board:** Sipeed Tang Nano 9K

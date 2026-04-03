@@ -2,15 +2,15 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Main.v",
+   "Path" : "C:/Users/Sriram Krishna/Documents/Verilog Projects/Conway's Game of Life/src/Clock Divider.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Clock Divider.v",
+   "Path" : "C:/Users/Sriram Krishna/Documents/Verilog Projects/Conway's Game of Life/src/Main.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Matrix.v",
+   "Path" : "C:/Users/Sriram Krishna/Documents/Verilog Projects/Conway's Game of Life/src/Matrix.v",
    "Type" : "verilog"
   }
  ],
@@ -18,7 +18,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Sriram Krishna/Documents/Verilog Projects/Conway's Game of Life/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
