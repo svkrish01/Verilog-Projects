@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="Conway" Register="64" Lut="647" T_Register="131(64)" T_Lut="814(647)">
+ <SubModule name="Instance_Clock_Divider" Register="25" Lut="49" T_Register="25(25)" T_Lut="49(49)"/>
+ <SubModule name="Instance_Matrix" Register="27" Lut="88" T_Register="42(27)" T_Lut="118(88)">
+  <SubModule name="Instance" Register="15" Lut="30" T_Register="15(15)" T_Lut="30(30)"/>
+ </SubModule>
+</Module>

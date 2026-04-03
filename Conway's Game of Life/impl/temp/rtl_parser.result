@@ -1,0 +1,38 @@
+[
+ {
+  "InstFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Main.v",
+  "InstLine" : 1,
+  "InstName" : "Conway",
+  "ModuleFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "Conway",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Main.v",
+    "InstLine" : 40,
+    "InstName" : "Instance_Clock_Divider",
+    "ModuleFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Clock Divider.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Clock_Divider"
+   },
+   {
+    "InstFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Main.v",
+    "InstLine" : 41,
+    "InstName" : "Instance_Matrix",
+    "ModuleFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Matrix.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "Matrix",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Matrix.v",
+      "InstLine" : 15,
+      "InstName" : "Instance",
+      "ModuleFile" : "C:/Users/Sriram Krishna/Documents/GOWIN/Conway's Game of Life/src/Clock Divider.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "Clock_Divider"
+     }
+    ]
+   }
+  ]
+ }
+]
